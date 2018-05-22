@@ -1,0 +1,7 @@
+Write a pseudocode description of a method for finding the smallest and largest
+numbers in an array of integers and compare that to a Java method that would do
+the same thing.
+
+sort the array
+get first index
+get last index

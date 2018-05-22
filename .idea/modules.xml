@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter1/Chapter1.iml" filepath="$PROJECT_DIR$/Chapter1/Chapter1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter1/Chapter1-Creativity/Chapter1-Creativity.iml" filepath="$PROJECT_DIR$/Chapter1/Chapter1-Creativity/Chapter1-Creativity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter1/Chapter1-Reinforcement/Chapter1-Reinforcement.iml" filepath="$PROJECT_DIR$/Chapter1/Chapter1-Reinforcement/Chapter1-Reinforcement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures-AndAlgorithms.iml" filepath="$PROJECT_DIR$/DataStructures-AndAlgorithms.iml" />
+    </modules>
+  </component>
+</project>

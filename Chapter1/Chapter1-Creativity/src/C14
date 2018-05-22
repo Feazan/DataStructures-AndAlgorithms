@@ -1,0 +1,8 @@
+Write a pseudocode description of a method that reverses an array of n integers,
+so that the numbers are listed in the opposite order than they were before, and
+compare this method to an equivalent Java method for doing the same thing.
+
+create temp array of same size as original
+loop though original array start at end
+    store the last element to first element of temp array
+return temp array
