@@ -18,6 +18,14 @@ public class C17
     }
 
 
+    /**
+     * Method determines if an even pair exists among an array of numbers
+     * If there exists a single even number in the array, then
+     * a distinct pair of numbers to form a product which is even exists
+     *
+     * @param numArray - Array of numbers to check whether distinct pair exists
+     * @return True/False whether an even number is found in the given array
+     */
     private static boolean evenArrayPair(int numArray[])
     {
         if (numArray.length == 0)
