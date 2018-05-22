@@ -1,14 +1,49 @@
+import java.util.Scanner;
+
 /**
  * Solution for Data Structures and Algorithms 6th edition --
  * Creativity C-1.16
  *
- *
- * Write a short program that takes as input three integers, a, b, and c, from the Java
- console and determines if they can be used in a correct arithmetic formula (in the
- given order), like “a+b = c,” “a = b−c,” or “a ∗ b = c.”
  * @author Feazan Yaseen
  */
 public class C16
 {
-    
+    public static void main (String[] args)
+    {
+        int a, b, c;
+        System.out.print("Please Enter a number: ");
+        Scanner number = new Scanner(System.in);
+        while (!number.hasNextInt()) // Ensure input is valid
+        {
+            System.out.print("Not an int, please enter an integer: ");
+            number = new Scanner(System.in);
+        }
+        a = number.nextInt();
+
+        System.out.print("Please Enter a number: ");
+        while (!number.hasNextInt()) // Ensure input is valid
+        {
+            System.out.print("Not an int, please enter an integer: ");
+            number = new Scanner(System.in);
+        }
+        b = number.nextInt();
+
+        System.out.print("Please Enter a number: ");
+        while (!number.hasNextInt()) // Ensure input is valid
+        {
+            System.out.print("Not an int, please enter an integer: ");
+            number = new Scanner(System.in);
+        }
+        c = number.nextInt();
+
+        if (arithmeticFormula(a, b, c))
+            System.out.println("The numbers can be used in a correct arithmetic formula");
+        else
+            System.out.println("The numbers cannot be used in correct arithmetic formula");
+    }
+
+    private static boolean arithmeticFormula(int a, int b, int c)
+    {
+        return a + b == c || a - b == c || a * b == c || a / b == c;
+    }
 }
