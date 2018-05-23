@@ -1,6 +1,6 @@
 /**
  * Solution for Data Structures and Algorithms 6th edition --
- * Creativity C-1.18
+ * Creativity C-1.19
  *
  * Write a Java program that can take a positive integer greater than 2 as input and
  * write out the number of times one must repeatedly divide this number by 2 before
