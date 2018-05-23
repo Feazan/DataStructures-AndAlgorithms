@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Solution for Data Structures and Algorithms 6th edition --
  * Creativity P-1.26
@@ -10,8 +12,30 @@
  */
 public class P26
 {
-    private static String reverseLine(String line)
+    public static void main (String[] args)
     {
-        return "";
+        reverseLine();
+    }
+
+    /**
+     * This method first asks how many lines one would like to input
+     * then create an array taking in the amount of lines specified
+     * and finally print them back in reverse order 
+     */
+    private static void reverseLine()
+    {
+        System.out.print("How many lines will you enter? ");
+        Scanner scan = new Scanner(System.in);
+        String[] input = new String[Integer.parseInt(scan.nextLine())];
+
+        for (int i = 0; i < input.length; i++)
+        {
+            input[i] = scan.nextLine();
+        }
+
+        for (int i = input.length - 1; i >= 0; i--)
+        {
+            System.out.println(input[i]);
+        }
     }
 }
