@@ -20,7 +20,7 @@ public class P26
     /**
      * This method first asks how many lines one would like to input
      * then create an array taking in the amount of lines specified
-     * and finally print them back in reverse order 
+     * and finally print them back in reverse order
      */
     private static void reverseLine()
     {
