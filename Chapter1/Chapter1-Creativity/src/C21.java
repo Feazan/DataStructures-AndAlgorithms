@@ -15,7 +15,11 @@ public class C21
 {
     public static void main (String[] args)
     {
-        int[] myArr = {1, 2, 3, 4, 5, 6, 7};
+        int[] myArr = new int[52];
+        for (int i = 0; i < myArr.length; i++)
+        {
+            myArr[i] = i + 1;
+        }
         int[] tmpArr = shuffle(myArr);
         System.out.println(Arrays.toString(myArr));
         System.out.println(Arrays.toString(tmpArr));
