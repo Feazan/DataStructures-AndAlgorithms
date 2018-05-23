@@ -8,5 +8,5 @@
  */
 public class C22
 {
-    
+
 }
